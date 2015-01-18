@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Backbone Todo List</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<main></main>
+
+	<script id="todo-view" type="text/template">
+		<h1>Todos</h1> <br/>
+		<input class="new-todo" type="text" placeholder="Insert Task"/> <br />
+
+		<ul>
+			<% todos.each(function (todo) { %>
+				<li>
+					<input class="toggle" type="checkbox" <%- todo.get('done') ? 'checked' : '' %> />
+					<%- todo.get('title') %>
+				</li>
+			<% }); %>
+			
+		</ul>
+	</script>
+
+	<script type="text/javascript" src="js/libs/jquery.js"></script>
+	<script type="text/javascript" src="js/libs/underscore.js"></script>
+	<script type="text/javascript" src="js/libs/backbone.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
