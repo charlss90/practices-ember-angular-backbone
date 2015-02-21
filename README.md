@@ -1,6 +1,6 @@
 # Practices-tfg
 
-This repository will find the result of working with 3 front-end (Backbone, Ember and Angular) technologies.
+In this repository you will find the result of working with 3 front-end (Backbone, Ember and Angular) technologies.
 Each project aims to make a reduced version of a small TODO list.
 With this work we want to compare the different technologies in the world.
 
